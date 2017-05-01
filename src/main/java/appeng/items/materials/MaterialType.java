@@ -42,7 +42,7 @@ public enum MaterialType
 	InvalidType( -1, "material_invalid_type" ),
 
 	CertusQuartzCrystal( 0, "material_certus_quartz_crystal", EnumSet.of( AEFeature.CERTUS ), "crystalCertusQuartz" ),
-	CertusQuartzCrystalCharged( 1, "material_certus_quartz_crystal_charged", EnumSet.of( AEFeature.CERTUS ), EntityChargedQuartz.class ),
+	CertusQuartzCrystalCharged( 1, "material_certus_quartz_crystal_charged", EnumSet.of( AEFeature.CERTUS ), "crystalCertusQuartzCharged", EntityChargedQuartz.class ),
 
 	CertusQuartzDust( 2, "material_certus_quartz_dust", EnumSet.of( AEFeature.DUSTS, AEFeature.CERTUS ), "dustCertusQuartz" ),
 	NetherQuartzDust( 3, "material_nether_quartz_dust", EnumSet.of( AEFeature.DUSTS ), "dustNetherQuartz" ),
